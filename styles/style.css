@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+/* nav styles */
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav-tittle{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-description{
+    text-align: center;
+    color: #0B0223;
+    font-size: 35px;
+   font-weight: 600;
+
+}
+.nav-description .gamer-tittle{
+    color: #FF42A5;
+    
+   
+   
+}
+.nav-content > ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-content li{
+    list-style: none;
+    margin-right: 32px;
+}
+.nav-content li a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.follow-btn{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.youtube{
+    color: red;
+}
+/* banner styles */
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #FFF;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.banner-content img{
+    width: 700px;
+}
+.banner-items{
+    background-color: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+}
+.banner-tittle{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-description{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.banner-sub-description{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.btn-purple{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: 0;
+    padding: 20px 40px;
+}
+.btn-blue{
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    border-radius: 48px;
+    background: #4EC5F7;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    padding: 20px 40px;
+}

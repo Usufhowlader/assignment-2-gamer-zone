@@ -187,6 +187,10 @@ main{
     gap: 24px;
     
 }
+.online-img:hover{
+         border:2px solid rgba(128, 0, 128, 0.644);
+         background-color:darkviolet;
+}
 .online-games-items img{
     width: 100%;
 }
@@ -218,7 +222,7 @@ background-clip: text;
 }
 /* Play Instantly style */
 .instantly{
-   margin-top: 50px;
+   margin: 100px 0;
 }
 .instantly-content{
     display: flex;
@@ -237,6 +241,8 @@ background-clip: text;
    background-clip: text;
    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 600px;
 }
 .instantly-description{
     color: #0B0223;
@@ -258,7 +264,87 @@ background-clip: text;
 }
 .instantly-2{
     position: absolute;
-    margin-top: -50%;
+    margin-top: -20%;
     margin-left: -20%;
    
 }
+.instantly-2 img{
+    width: 200px;
+}
+/* games sections styles */
+.games-content{
+   
+}
+.games-items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:20px ;
+    padding: 50px 0;
+}
+.games-item{
+    display: flex;
+    gap: 20px;
+
+}
+   .games-item:hover{ 
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+    border: 1px solid var(--Linear, #FF42A5);
+    background: #FFF;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+   }
+   /* footer styles */
+   .footer{
+    background: #0B0223;
+   }
+   .footer-content-1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+   }
+   .footer-tittle{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+   }
+   .footer-tittle-amer{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+   }
+   .section-tittle{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+   }
+   .footer-content-2{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 60px;
+     justify-content: center;
+     align-items:center;
+   }
+   .icons-items > ul{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+      justify-content: center;
+      align-items:center;
+   }
+   .icons-items  li{
+    list-style: none;
+   }
+   .icons-items  li a{
+    text-decoration: none;
+   }

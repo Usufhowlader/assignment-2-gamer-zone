@@ -34,6 +34,19 @@
     .instantly-content img{
       width: 300px;
     }
+    .instantly-2 img{
+        width: 100px;
+    }
+    .games-items{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px;
+    }
+    .games-item{
+     gap:5px ;
+    }
+    .games-item img{ 
+        width: 100%;
+    }
 }
 
 
@@ -42,7 +55,7 @@
 
 
 @media screen and (min-width:577px) and (max-width:992px){
-    .nav-content, .instantly-content{
+    .nav-content, .games-content{
         flex-direction: column;
         gap: 5px;
     }
@@ -69,8 +82,20 @@
     .online-games-items img{
         width: 100%;
     }
-    .instantly-content{
+    .instantly-content img{
         width: 100%;
     }
-    
+    .instantly-2 img{
+        width: 200px;
+    }
+    .games-items{
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px;
+    }
+    .games-item{
+     gap:20px ;
+    }
+    .games-item img{
+        width: 100%;
+    }
 }

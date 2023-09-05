@@ -47,6 +47,17 @@
     .games-item img{ 
         width: 100%;
     }
+    .footer-content-2, .icons-items > ul{
+        grid-template-columns: repeat(3, 1fr);
+       gap: 5px;
+    }
+    ul{
+        grid-template-columns: repeat(2, 1fr);
+       gap: 5px;
+    }
+    .footer-content{
+        padding: 20px;
+     }
 }
 
 
@@ -98,4 +109,15 @@
     .games-item img{
         width: 100%;
     }
+    .footer-content-2, .icons-items > ul{
+        grid-template-columns: repeat(4, 1fr);
+       gap: 5px;
+    }
+    ul{
+        grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+    }
+    .footer-content{
+        padding: 50px;
+     }
 }

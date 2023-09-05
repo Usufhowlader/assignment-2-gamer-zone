@@ -1,5 +1,5 @@
 @media screen and (max-width:576px){
-    .nav-content, .nav-content > ul, .gamer{
+    .nav-content, .nav-content > ul, .gamer, .instantly-content{
         flex-direction: column;
     }
     .follow-btn{
@@ -23,8 +23,16 @@
     .gamer-content{
         text-align:center;
     }
-    .banner-items{
-        align-items: center;
+    .online-games-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+    .online-games-items img{
+        width: 100%;
+    }
+    .instantly-content img{
+      width: 300px;
     }
 }
 
@@ -34,7 +42,7 @@
 
 
 @media screen and (min-width:577px) and (max-width:992px){
-    .nav-content{
+    .nav-content, .instantly-content{
         flex-direction: column;
         gap: 5px;
     }
@@ -52,6 +60,17 @@
     }
     .gamer-content{
         text-align:center;
+    }
+    .online-games-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+    .online-games-items img{
+        width: 100%;
+    }
+    .instantly-content{
+        width: 100%;
     }
     
 }

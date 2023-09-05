@@ -15,6 +15,7 @@ nav{
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 .nav-tittle{
     display: flex;
@@ -59,6 +60,7 @@ nav{
     max-width: 1140px;
     margin: 0 auto;
     background: #FFF;
+    padding: 0 10px;
 }
 .banner-content{
     display: flex;
@@ -119,6 +121,7 @@ nav{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 5px 10px;
 }
 /* gamer section style */
 .gamer{
@@ -126,7 +129,8 @@ main{
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 50px 0;
+  margin-top: 50px;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
 .gamer img{
     width: 700px;
@@ -151,4 +155,110 @@ main{
 }
 .gamer-content{
     text-align: right;
+}
+/* Online Games Funny Videos style */
+.online-games{
+    margin-top: 50px;
+}
+.online-games-tittle{
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+.online-games-tittle-funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
+.online-games-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.online-games-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    
+}
+.online-games-items img{
+    width: 100%;
+}
+.watch{
+    /* text-align: center; */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.fa-brands{
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+}
+.online-games-items-3{
+    position: relative;
+}
+.icon-pan{
+  position: absolute;
+  margin-top: -60%;
+  margin-left: 50%;
+   
+}
+/* Play Instantly style */
+.instantly{
+   margin-top: 50px;
+}
+.instantly-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+.instantly-tittle{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.instantly-description{
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+.instantly-sub-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+   text-align: center;
+}
+.instantly-1{
+    position: relative;
+}
+.instantly-2{
+    position: absolute;
+    margin-top: -50%;
+    margin-left: -20%;
+   
 }
